@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+.table-box{
+    margin:60px auto;
+
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 50px auto;
+    background: transparent;
+    background-color: #e0e0e0;
+    padding: 12px 0;
+    color: rgb(66, 66, 66);
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.cell{
+    display: table-cell;
+    width: 15%;
+    text-align: center;
+    padding: 1px solid rgb(207, 193, 193);
+
+}
+.first-cell{
+    padding: 10px;
+    text-align: left;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+.logo{
+    height: 80px;
+    width: 160px;
+}
+.navbar ul li a{
+text-decoration: none;
+color:rgb(0, 0, 0);
+text-transform: uppercase;
+}
+.navbar ul li a::after{
+content: '';
+height: 3px;
+width: 0;
+background:#CE1819;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: .5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+
+}
+.navbar .fa{
+    display: none;
+    
+}
+h3{
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: poppins,semi-bold;
+    color: #686565;
+    text-decoration: none;
+    background-color: #dfcbcb;;
+    cursor: pointer;
+    padding: 8px;
+    border:1px solid rgb(204, 203, 203);
+    width: 350px;
+    
+
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+form{
+    text-align: left;
+    margin: auto;
+    padding: 12px 0;
+
+    display: flex;
+    align-items: center;
+}
+form p{
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+form input[type="text"]{
+    background: transparent;
+    background-color: #e2e2e2;
+    text-align: left;
+    border: 1px solid #949494;
+    margin-right: 15px;
+    margin-left: 0px;
+    width: 7%;
+    padding: 8px 0;
+    font-size: 14px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    background-color: rgb(190, 186, 186);
+    cursor: pointer;
+    border:1px solid rgb(204, 203, 203);
+    padding: 12px 34px;
+    position: relative;
+}
+.hero-btn:hover{
+    border: 1px solid #CE1819;
+    background: #c98888;
+    transition: .5s;
+}
+.titleOfTable{
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+}
+h4{
+    color: #000;
+}

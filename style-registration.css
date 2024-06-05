@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/login-bg.jpg);
+    background-size: cover;
+    font-family:poppins;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 34%;
+}
+.registration-box{
+    width: 380px;
+    height: 520px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.registration-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.registration-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registration-box input[type="text"], input[type="password"], input[type="Email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.registration-box input[type="submit"]{
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff6d5d;
+    border-radius: 20px;
+    cursor: pointer;
+    border:1px solid white;
+    padding: 12px 34px;
+    position: relative;
+}
+.registration-box input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #D15245;
+}
+.registration-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.registration-box a:hover{
+    color: #fff;
+}
+.registration-box input[type="Checkbox"]{
+    margin-top: 5px;
+    padding:0;
+    width: 5%;
+    text-align: left;
+}
+.show-pass{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
